@@ -1,0 +1,14 @@
+package motors;
+
+public class motors {
+	private int speed;
+	
+	void setSpeed(int speed) {
+		this.speed = speed;
+	}
+	
+	void running() {
+		System.out.println("raju is good");
+	}
+
+}

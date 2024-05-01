@@ -1,0 +1,17 @@
+package notebook;
+
+public class Notebooks {
+	
+  private int cost;
+  
+  public void setCost(int cost) {
+	  this.cost = cost;
+  }
+  
+  public int getCost() {
+	  return this.cost;
+  }
+	
+	
+
+}

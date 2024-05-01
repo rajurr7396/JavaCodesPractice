@@ -1,0 +1,11 @@
+package packagewmot;
+
+public class primen {
+	
+	private int i;
+
+	public primen(int i) {
+		this.i = i;
+	}
+
+}

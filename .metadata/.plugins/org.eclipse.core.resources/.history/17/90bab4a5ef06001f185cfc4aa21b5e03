@@ -1,0 +1,13 @@
+package aeroplanes;
+
+public class aeroplanerunner {
+
+	public static void main(String[] args) {
+		aeroplanes obj = new aeroplanes();
+		
+		obj.cost = 90;
+		
+
+	}
+
+}

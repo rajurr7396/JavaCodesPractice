@@ -1,0 +1,16 @@
+package com.example.notebooks;
+
+public class NotebooksRunnable {
+
+	public static void main(String[] args) {
+		
+		Notebooks Java = new Notebooks();
+		Notebooks Python = new Notebooks();
+		
+		Java.OpenLabel();
+        Python.OpenLabel();
+		
+		
+	}
+
+}

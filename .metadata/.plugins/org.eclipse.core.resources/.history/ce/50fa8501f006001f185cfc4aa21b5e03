@@ -1,0 +1,29 @@
+package aeroplanes;
+
+public class aeroplanes {
+	
+	int cost;
+	private int speed;
+	
+	
+	public int getCost() {
+		return cost;
+	}
+	
+	public void setCost(int cost) {
+		this.cost = cost;
+	}
+	
+	public int getSpeed() {
+		return speed;
+	}
+	
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+	
+	
+	
+	
+
+}

@@ -1,0 +1,61 @@
+package aeroplanes;
+
+public class aeroplanes {
+	
+	int cost;
+	private int speed;
+	private int velocity;
+	
+	public int getVelocity() {
+		return this.velocity;
+	}
+
+
+
+	public void setVelocity(int velocity) {
+		this.velocity = velocity;
+	}
+
+
+
+	public aeroplanes(int velocity) {
+		this.velocity = velocity;
+	}
+	
+	
+	
+	public void Start() {
+		System.out.println("Aeroplanes started");
+	}
+	
+	public int getCost() {
+		return cost;
+	}
+	
+	public void setCost(int cost) {
+		if (cost> 1) {
+		this.cost = cost;
+	}
+	}
+	
+	public void setIncrease(int costincrease) {
+		if (this.cost > 1) {
+		setCost(this.cost + costincrease);
+	}
+	}
+	
+	public int getSpeed() {
+		return speed;
+	}
+	
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+	
+	
+	
+	
+	
+	
+
+}

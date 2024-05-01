@@ -1,0 +1,17 @@
+package motors;
+
+public class motorrunnable {
+
+	public static void main(String[] args) {
+		motors obj = new motors();
+		
+		int r = obj.setR(90);
+        System.out.println(r);
+       
+        
+        
+		
+		
+	}
+
+}

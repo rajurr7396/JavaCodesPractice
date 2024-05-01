@@ -1,0 +1,18 @@
+package notebook;
+
+public class NotebooksRunn {
+
+	public static void main(String[] args) {
+		Notebooks obj = new Notebooks();
+		
+		obj.setCost(100);
+		
+		obj.setIncreaseCost(500);
+		
+		int cost = obj.getCost();
+		
+		System.out.println(cost);
+
+	}
+
+}

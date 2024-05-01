@@ -1,0 +1,13 @@
+package primr;
+
+public class primenumber {
+
+	public static void main(String[] args) {
+		
+		Mynumber obj = new Mynumber(7);
+		boolean id = obj.getI();
+		System.out.println(id);
+
+	}
+
+}

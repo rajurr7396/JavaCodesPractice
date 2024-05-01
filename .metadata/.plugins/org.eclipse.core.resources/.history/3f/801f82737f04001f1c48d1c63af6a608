@@ -1,0 +1,11 @@
+package motors;
+
+public class motorrunnable {
+
+	public static void main(String[] args) {
+		motors obj = new motors();
+		obj.speed = 6;
+		
+	}
+
+}

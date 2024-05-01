@@ -1,0 +1,10 @@
+package firstproject;
+
+public class methodsclass {
+	
+	int a ;
+	void start(int x) {
+		System.out.println("Value returned by start");
+	}
+
+}

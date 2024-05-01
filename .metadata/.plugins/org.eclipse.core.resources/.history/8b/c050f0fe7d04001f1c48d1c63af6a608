@@ -1,0 +1,19 @@
+package firstproject;
+
+public class methodsclass {
+	
+	 int a ;
+	
+	int b =9;
+
+
+	
+	
+	void start(int x) {
+		System.out.println("Value returned by start");
+	}
+	int start(int x, int y) {
+		return x + y;
+	}
+
+}

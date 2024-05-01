@@ -1,0 +1,15 @@
+package firstproject;
+
+public class mainclass {
+
+	public static void main(String[] args) {
+		
+	
+		methodsclass obj = new methodsclass();
+		int r = obj.start();
+		System.out.println("Value returned by start(): " + r);
+		
+		
+	}
+
+}

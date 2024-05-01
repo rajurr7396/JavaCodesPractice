@@ -1,0 +1,19 @@
+package notebook;
+
+public class Notebooks {
+	
+  private int cost;
+  
+  public void setCost(int cost) {
+	  if (cost> 1) {
+	  this.cost = cost;
+	  }
+  }
+  
+  public int getCost() {
+	  return this.cost;
+  }
+	
+	
+
+}

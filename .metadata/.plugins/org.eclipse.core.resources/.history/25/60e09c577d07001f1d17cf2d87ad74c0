@@ -1,0 +1,9 @@
+package packagewmot;
+
+public class primemain {
+
+	public static void main(String[] args) {
+		primen obj = new primen(9);
+	}
+
+}

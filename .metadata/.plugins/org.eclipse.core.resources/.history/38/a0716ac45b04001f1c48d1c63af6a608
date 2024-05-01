@@ -1,0 +1,12 @@
+package firstproject;
+
+public class mainclass {
+
+	public static void main(String[] args) {
+		methodsclass obj = new methodsclass();
+		 obj.show(1);
+		 String x = obj.show(8.0f);
+
+	}
+
+}

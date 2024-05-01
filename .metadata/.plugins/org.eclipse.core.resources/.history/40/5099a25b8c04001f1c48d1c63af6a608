@@ -1,0 +1,21 @@
+package motors;
+
+public class motors {
+	 int r;
+	
+
+	
+
+	public void setSpeed(int speed) {
+		this.r = speed;
+		
+	}
+	
+	int getR() {
+		return this.r;
+	}
+
+
+	
+
+}

@@ -1,0 +1,21 @@
+package motors;
+
+public class motors {
+	private int r;
+	int b;
+	int c = 907;
+
+	
+
+	int setR(int r) {
+		this.r = r;
+		return this.r;
+		
+	}
+	
+	
+
+
+	
+
+}

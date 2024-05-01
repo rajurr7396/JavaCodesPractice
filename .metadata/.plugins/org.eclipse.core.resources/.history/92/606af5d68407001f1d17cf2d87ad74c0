@@ -1,0 +1,23 @@
+package com.example.notebooks;
+
+public class NotebooksRunnable {
+
+	public static void main(String[] args) {
+		
+		Notebooks Java = new Notebooks();
+		Notebooks Python = new Notebooks();
+		
+		Java.OpenLabel();
+        Python.OpenLabel();
+        
+       int r =  Java.booksize;
+       int y = Python.booksize;
+       
+       System.out.println("Java booksize" + r);
+       System.out.println("Python booksize" + y);
+      
+		
+		
+	}
+
+}

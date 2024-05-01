@@ -1,0 +1,22 @@
+package com.example.mypackage;
+
+class pavan {
+	
+	public void show(double a, int b) {
+		System.out.println(a+b);
+	}
+ 
+}
+
+public class raju {
+    public static void main(String[] args) {
+    	
+    	double a = 6;
+    	int b = 8;
+    	
+    	pavan obj = new pavan();
+    	obj.show(a, b);
+    	
+       
+    }
+}

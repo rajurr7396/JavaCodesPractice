@@ -1,0 +1,23 @@
+package aeroplanes;
+
+public class aeroplanerunner {
+
+	public static void main(String[] args) {
+		
+		
+		aeroplanes obj2 = new aeroplanes(688, 9);
+		
+		System.out.println(obj2.getVelocity());
+		
+		
+		System.out.println(obj2.getClass());
+		obj2.getClass();
+		
+		
+		
+		
+
+
+	}
+
+}

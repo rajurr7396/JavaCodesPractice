@@ -1,0 +1,10 @@
+package motors;
+
+public class motors {
+	 int speed;
+	
+	void running() {
+		System.out.println("raju is good");
+	}
+
+}

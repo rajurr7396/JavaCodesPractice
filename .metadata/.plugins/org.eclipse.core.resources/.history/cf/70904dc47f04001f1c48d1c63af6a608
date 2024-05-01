@@ -1,0 +1,11 @@
+package motors;
+
+public class motors {
+	int speed;
+	
+	public motors(){
+		System.out.println(speed);
+	}
+	
+
+}

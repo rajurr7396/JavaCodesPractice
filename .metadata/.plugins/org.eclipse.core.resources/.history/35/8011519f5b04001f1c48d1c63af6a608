@@ -1,0 +1,11 @@
+package firstproject;
+
+public class mainclass {
+
+	public static void main(String[] args) {
+		methodsclass obj = new methodsclass();
+		obj.show(1);
+
+	}
+
+}

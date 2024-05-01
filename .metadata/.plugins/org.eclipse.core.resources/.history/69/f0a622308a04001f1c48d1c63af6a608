@@ -1,0 +1,24 @@
+package motors;
+
+public class motorrunnable {
+
+	public static void main(String[] args) {
+		motors obj = new motors();
+		motors honda = new motors();
+		motors zuki = new motors();
+		
+		obj.setSpeed(90);
+		
+		obj.a = 90;
+		int r = obj.b;
+		
+		System.out.println(r);
+		
+	
+		
+		System.out.println(obj.getSpeed());
+		
+		
+	}
+
+}

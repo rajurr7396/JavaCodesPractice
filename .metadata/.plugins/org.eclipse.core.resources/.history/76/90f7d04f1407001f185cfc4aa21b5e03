@@ -1,0 +1,15 @@
+package javauser;
+
+import java.util.Scanner;
+
+public class minu {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("enter a value\n");
+		int x = scanner.nextInt();
+		
+		System.out.println("value of x is" +(x+9));
+	}
+
+}

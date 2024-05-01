@@ -1,0 +1,28 @@
+package aeroplanes;
+
+public class aeroplanes {
+	
+	int cost;
+	private int speed;
+	private int velocity;
+	
+	public int getVelocity() {
+		return this.velocity;
+	}
+
+
+
+	
+
+
+	public aeroplanes(int velocity, int cost) {
+		this.velocity = velocity;
+		this.cost = cost;
+	}
+	
+	
+	
+	
+
+
+}

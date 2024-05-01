@@ -1,0 +1,15 @@
+package com.example.mypackage;
+
+
+
+public class raju {
+    public static void main(String[] args) {
+    	
+    	
+   long a = 8l;
+    	
+    		System.out.println("8");  
+    	
+       
+    }
+}

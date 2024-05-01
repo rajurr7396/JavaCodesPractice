@@ -1,0 +1,29 @@
+
+package motors;
+
+public class motorrunnable {
+    public static void main(String[] args) {
+        motors duke = new motors();
+        motors hyundai = new motors();
+        
+        duke.start();
+        hyundai.start();
+       
+   
+       int dukeSpeed = duke.speed = 78;
+        int hyundaiSpeed = hyundai.speed = 90;
+        
+        System.out.println(dukeSpeed);
+        System.out.println(hyundaiSpeed);
+        
+        duke.setVelocity(67);
+        hyundai.setVelocity(45);
+        
+        int dukeVelocity = duke.getVelocity();
+        int hyundaiVelocity = hyundai.getVelocity();
+        
+        System.out.println(dukeVelocity);
+        System.out.println(hyundaiVelocity);
+       
+    }
+}

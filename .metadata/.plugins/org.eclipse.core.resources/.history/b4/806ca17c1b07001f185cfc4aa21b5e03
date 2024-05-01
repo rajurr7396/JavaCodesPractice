@@ -1,0 +1,15 @@
+package ternary;
+
+public class terni {
+
+	public static void main(String[] args) {
+		
+		int x = 8;
+		
+		Boolean r = (x%2==0) ? true :false;
+		
+		System.out.println(r);
+				
+	}
+
+}

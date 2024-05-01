@@ -1,0 +1,9 @@
+package notebook;
+
+public class Notebooks {
+	
+ int cost;
+	
+	
+
+}

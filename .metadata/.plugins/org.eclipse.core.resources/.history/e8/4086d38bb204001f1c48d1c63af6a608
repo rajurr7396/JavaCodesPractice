@@ -1,0 +1,16 @@
+
+package motors;
+
+public class motorrunnable {
+    public static void main(String[] args) {
+        motors duke = new motors();
+        motors hyundai = new motors();
+        
+        duke.start();
+        hyundai.start();
+
+        duke.speed = 78;
+        
+       
+    }
+}

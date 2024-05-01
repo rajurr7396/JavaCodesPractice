@@ -1,0 +1,17 @@
+package firstproject;
+
+public class mainclass {
+
+	public static void main(String[] args) {
+		
+	
+		methodsclass obj = new methodsclass();
+		
+		
+		obj.a = 8;
+		int r = obj.b;
+		System.out.println(r);
+
+	}
+
+}

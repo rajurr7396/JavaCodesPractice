@@ -1,0 +1,7 @@
+package com.example.notebooks;
+
+public class Notebooks {
+	
+	private int cost;
+
+}

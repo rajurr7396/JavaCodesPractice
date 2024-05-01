@@ -1,0 +1,14 @@
+package aeroplanes;
+
+public class aeroplanes {
+	
+	int cost;
+	private int speed;
+	
+	
+	
+	
+	
+
+
+}

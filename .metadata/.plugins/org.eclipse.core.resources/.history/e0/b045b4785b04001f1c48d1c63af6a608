@@ -1,0 +1,20 @@
+package firstproject;
+
+public class methodsclass {
+	void show() {
+		System.out.println("raju");
+	}
+	
+	void show(int x, int y) {
+		System.out.println(" nalluri");
+	}
+	
+	void show(int x) {
+		System.out.println("raj kumar");
+	}
+	
+	String show(float x) {
+		return "raj kumar";
+	}
+
+}

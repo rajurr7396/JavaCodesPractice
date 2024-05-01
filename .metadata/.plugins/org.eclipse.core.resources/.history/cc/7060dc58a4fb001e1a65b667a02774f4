@@ -1,0 +1,18 @@
+package com.example.mypackage;
+
+class pavan {
+    public int show(int a, int b) { // Specify parameter types
+        return a + b;
+    }
+}
+
+public class raju {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 7;
+
+        pavan obj = new pavan();
+        int result = obj.show(a, b); // Assign the result to a variable
+        System.out.println("Result: " + result); // Print the result
+    }
+}

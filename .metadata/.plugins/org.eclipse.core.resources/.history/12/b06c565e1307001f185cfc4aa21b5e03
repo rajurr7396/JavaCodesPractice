@@ -1,0 +1,12 @@
+package javauser;
+
+public class minu {
+
+	public static void main(String[] args) {
+		int x = 90;
+		
+		System.out.println("numberr\n"  +" "+x);
+
+	}
+
+}

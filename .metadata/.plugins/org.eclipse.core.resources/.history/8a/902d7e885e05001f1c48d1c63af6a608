@@ -1,0 +1,12 @@
+package notebook;
+
+public class NotebooksRunn {
+
+	public static void main(String[] args) {
+		Notebooks obj = new Notebooks();
+		
+		obj.cost;
+
+	}
+
+}

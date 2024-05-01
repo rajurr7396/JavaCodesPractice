@@ -1,0 +1,27 @@
+
+package motors;
+
+public class motors {
+	int speed;
+	private int velocity;
+	
+	
+	}
+	
+	int getVelocity() {
+		return velocity;
+	}
+	
+	
+	
+    void start() {
+    	System.out.println("started");
+    }
+
+	public void setIncrease(int change) {
+		setVelocity(this.velocity + change);
+	}
+
+}
+
+	

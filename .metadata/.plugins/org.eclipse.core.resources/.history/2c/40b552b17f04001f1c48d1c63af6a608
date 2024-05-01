@@ -1,0 +1,6 @@
+package motors;
+
+public class motors {
+	int speed;
+
+}

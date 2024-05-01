@@ -1,0 +1,15 @@
+package com.example.mypackage;
+
+
+
+public class raju {
+    public static void main(String[] args) {
+    	
+    	
+    	int b = 8;
+    	
+    		System.out.printf("rajju");  
+    	
+       
+    }
+}

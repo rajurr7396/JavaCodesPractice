@@ -1,0 +1,23 @@
+package aeroplanes;
+
+public class aeroplanerunner {
+
+	public static void main(String[] args) {
+		aeroplanes obj = new aeroplanes();
+		
+		obj.setCost(90);
+		obj.setSpeed(900);
+		
+		int r = obj.getCost();
+		int y = obj.getSpeed();
+		
+		System.out.println(r + " " + y);
+
+		
+		
+		
+		
+
+	}
+
+}

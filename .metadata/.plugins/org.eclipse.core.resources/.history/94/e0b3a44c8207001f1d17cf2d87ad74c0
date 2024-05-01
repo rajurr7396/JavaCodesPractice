@@ -1,0 +1,21 @@
+package primr;
+
+public class Mynumber {
+
+	private int i;
+
+	public Mynumber(int i) {
+		this.i = i;
+	}
+
+	public boolean getI() {
+		for (int ia = 2; ia<= i - 1; ia++) {
+			if (ia % 2 == 0) {
+				return false;
+			}
+		}
+		
+		return true;
+	}
+
+}

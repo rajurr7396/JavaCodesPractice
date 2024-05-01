@@ -1,0 +1,31 @@
+package doublethings;
+
+public class Puzzle {
+
+	public static void main(String[] args) {
+		puzzle2();
+		puzzle1();
+		int r = raju(78);
+		System.out.println(r);
+
+	}
+	
+	
+	public static void puzzle2() {
+		int x = 78;
+		System.out.println(x);
+
+}
+
+	public static void puzzle1() {
+		
+		char x = 'v';
+		System.out.println(x);
+		
+	}
+	
+	public static int raju(int y) {
+		return y;
+	}
+	
+}
